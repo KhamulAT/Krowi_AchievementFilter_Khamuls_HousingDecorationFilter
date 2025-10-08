@@ -1,6 +1,6 @@
 ## Interface: 110205
 ## Title: Krowi's |cFF1D92C2AF|r - Khamuls Housing Decor Achievement Filters
-## Version: 1.0.1
+## Version: 1.0.2
 ## Author: Khamûl-Antonidas
 ## X-Email: neytiri-amanthul@gmx.at
 ## Notes: Additional Filters for Krowi's Achievement Filter Addon, providing lists for expansion housing decoration
