@@ -8,7 +8,7 @@ addon.Achievements.HousingDF = {}
 
 function InitializeHousingDF()
     local ACMList = { 
-        "Dragonflight",
+        _G.EXPANSION_NAME9,
         false,
         {
             IgnoreCollapsedChainFilter = true,
