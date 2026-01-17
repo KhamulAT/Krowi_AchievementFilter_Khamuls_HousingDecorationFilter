@@ -8,7 +8,7 @@ addon.Achievements.HousingBfA = {}
 
 function InitializeHousingBfA()
     local ACMList = { 
-        "Battle for Azeroth",
+        _G.EXPANSION_NAME7,
         false,
         {
             IgnoreCollapsedChainFilter = true
