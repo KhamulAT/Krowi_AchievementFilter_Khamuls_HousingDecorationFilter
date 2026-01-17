@@ -8,7 +8,7 @@ addon.Achievements.HousingPvP = {}
 
 function InitializeHousingPvP()
     local ACMList = { 
-        "PvP",
+        _G.PVP,
         false,
         {
             IgnoreCollapsedChainFilter = true

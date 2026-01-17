@@ -8,7 +8,7 @@ addon.Achievements.HousingTWW = {}
 
 function InitializeHousingTWW()
     local ACMList = { 
-        "The War Within",
+        _G.EXPANSION_NAME10,
         false,
         {
             IgnoreCollapsedChainFilter = true,

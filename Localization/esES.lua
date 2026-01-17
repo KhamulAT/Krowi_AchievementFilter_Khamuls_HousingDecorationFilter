@@ -11,3 +11,6 @@ L["Unknown Achievement"] = "Logro desconocido"
 
 -- Tooltips
 L["Tt_UseMetaAchievementPlugin"] = "Usa el complemento \"Khamul's Expansion Meta Achievement Filters\" para obtener una visión detallada de {1}."
+
+-- Data
+--L["Legacy Expansions"] = "Legacy Expansions"
