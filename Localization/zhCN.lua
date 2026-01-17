@@ -9,3 +9,6 @@ L["Unknown Achievement"] = "未知成就"
 
 -- Tooltips
 L["Tt_UseMetaAchievementPlugin"] = "使用插件 \"Khamul's Expansion Meta Achievement Filters\" 来获取 {1} 的详细概览。"
+
+-- Data
+L["Legacy Expansions"] = "旧内容更新"
