@@ -8,7 +8,7 @@ addon.Achievements.HousingLegacy = {}
 
 function InitializeHousingLegacy()
     local ACMList = { 
-        "Legacy Expansions",
+        L["Legacy Expansions"],
         false,
         {
             IgnoreCollapsedChainFilter = true
