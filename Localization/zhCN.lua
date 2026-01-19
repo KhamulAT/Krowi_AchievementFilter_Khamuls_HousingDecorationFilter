@@ -4,7 +4,7 @@ if not L then return end
 addon.L = L;
 
 -- Globals
-L["Khamul's House Decor Achievement List"] = "卡穆尔的房屋装饰清单"
+L["Khamul's House Decor Achievement List"] = "Khamul's Meta-房屋装饰清单"
 L["Unknown Achievement"] = "未知成就"
 
 -- Tooltips
