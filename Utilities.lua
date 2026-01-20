@@ -38,3 +38,26 @@ function HousingUtilitiesReplacePlaceholderInText(template, values)
         return values[tonumber(index)] or "{" .. index .. "}"
     end)
 end
+
+function HousingUtilitiesGetZoneNameByMapID(mapID)
+    return C_Map.GetMapInfo(mapID).name
+end
+
+function HousingUtilitiesGetDungeonNameByLFGDungeonID(dungeonID)
+  local name, typeID, subtypeID = GetLFGDungeonInfo(dungeonID)
+
+  if name then
+    return name
+  end
+  return QUEUED_STATUS_UNKNOWN
+end
+
+function HousingUtilitiesGetAchievementCategoryNameNyCategoryID(categoryId)
+  if type(categoryId) ~= "number" then
+    return QUEUED_STATUS_UNKNOWN
+  end
+
+  local name = GetCategoryInfo(categoryId)
+  return name
+end
+

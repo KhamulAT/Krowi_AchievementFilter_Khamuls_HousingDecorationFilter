@@ -29,14 +29,22 @@ function InitializeAllAchievementsForKhamulsHouseDecorList()
     InitializeHousingDF()
     InitializeHousingSL()
     InitializeHousingBfA()
-    InitializeHousingLegacy()
+    InitializeHousingLegion()
+    InitializeHousingWoD()
+    InitializeHousingMoP()
+    InitializeHousingWotLk()
+    InitializeHousingClassic()
     InitializeHousingPvP()
 
     local aggregatedAchievementsList = {
         971,
         {
             addon.L["Khamul's House Decor Achievement List"],
-            addon.Achievements.HousingLegacy,
+            addon.Achievements.HousingClassic,
+            addon.Achievements.HousingWotLk,
+            addon.Achievements.HousingMoP,
+            addon.Achievements.HousingWoD,
+            addon.Achievements.HousingLegion,
             addon.Achievements.HousingBfA,
             addon.Achievements.HousingSL,
             addon.Achievements.HousingDF,

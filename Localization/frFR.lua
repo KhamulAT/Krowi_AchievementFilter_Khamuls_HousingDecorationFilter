@@ -10,5 +10,5 @@ L["Khamul's House Decor Achievement List"] = "Liste de décoration intérieure d
 L["Unknown Achievement"] = "Réalisation inconnue"
 
 -- Tooltips
-L["Tt_UseMetaAchievementPlugin"] = "Utilisez l'addon \"Khamul's Expansion Meta Achievement Filters\" pour obtenir un aperçu détaillé de {1}."
+L["Tt_UseMetaAchievementPlugin"] = "Utilisez l'addon \"Khamul's Expansion Meta Achievement Filters\" pour obtenir un aperçu détaillé de \"{1}\"."
 

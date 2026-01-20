@@ -8,7 +8,7 @@ addon.Achievements.HousingSL = {}
 
 function InitializeHousingSL()
     local ACMList = { 
-        "Shadowlands",
+        EXPANSION_NAME8,
         false,
         {
             IgnoreCollapsedChainFilter = true,
