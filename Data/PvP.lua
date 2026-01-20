@@ -9,7 +9,7 @@ addon.Achievements.HousingPvP = {}
 function InitializeHousingPvP()
 
     local ACM_WarsongGulch = {
-        HousingUtilitiesGetDungeonNameByLFGDungeonID(489),
+        HousingUtilitiesGetAchievementCategoryNameNyCategoryID(14804),
         false,
         {
             IgnoreCollapsedChainFilter = true
@@ -21,7 +21,7 @@ function InitializeHousingPvP()
     }
 
     local ACM_ArathiBasin = {
-        HousingUtilitiesGetDungeonNameByLFGDungeonID(2107),
+        HousingUtilitiesGetAchievementCategoryNameNyCategoryID(14802),
         false,
         {
             IgnoreCollapsedChainFilter = true
@@ -33,7 +33,7 @@ function InitializeHousingPvP()
     }
 
     local ACM_EyeOfTheStorm = {
-        HousingUtilitiesGetDungeonNameByLFGDungeonID(566),
+        HousingUtilitiesGetAchievementCategoryNameNyCategoryID(14803),
         false,
         {
             IgnoreCollapsedChainFilter = true
@@ -45,7 +45,7 @@ function InitializeHousingPvP()
     }
 
     local ACM_AlteracValley = {
-        HousingUtilitiesGetDungeonNameByLFGDungeonID(30),
+        HousingUtilitiesGetAchievementCategoryNameNyCategoryID(14801),
         false,
         {
             IgnoreCollapsedChainFilter = true
@@ -57,7 +57,7 @@ function InitializeHousingPvP()
     }
 
     local ACM_BattleForGilneas = {
-        HousingUtilitiesGetDungeonNameByLFGDungeonID(761),
+        HousingUtilitiesGetAchievementCategoryNameNyCategoryID(15073),
         false,
         {
             IgnoreCollapsedChainFilter = true
@@ -68,7 +68,7 @@ function InitializeHousingPvP()
     }
 
     local ACM_TwinPeaks = {
-        HousingUtilitiesGetDungeonNameByLFGDungeonID(726),
+        HousingUtilitiesGetAchievementCategoryNameNyCategoryID(15074),
         false,
         {
             IgnoreCollapsedChainFilter = true
@@ -79,7 +79,7 @@ function InitializeHousingPvP()
     }
 
     local ACM_TempleOfKotmogu = {
-        HousingUtilitiesGetDungeonNameByLFGDungeonID(998),
+        HousingUtilitiesGetAchievementCategoryNameNyCategoryID(15163),
         false,
         {
             IgnoreCollapsedChainFilter = true
