@@ -15,9 +15,28 @@ function KhamulsHousingDecorEventListenerFrame:Disable()
     self:Hide()
 end
 
+StaticPopupDialogs["KHAMULS_HOUSING_DECOR_DEPRECATED"] = {
+    text =
+        "Important Information for \"Krowi's Achievement Filter: Khamuls Housing Decoration Achievement Filters\"\n\n" ..
+        "This Addon will no longer be maintained.\n\n" ..
+        "I've moved the housing decor collection to my other plugin for " ..
+        "Krowi's Achievement Filter addon.\n\n" ..
+        "Additionally to the decoration collection (including midnight decorations), you will find the " ..
+        "meta-mount collection, the campsite collection and the pet collection " ..
+        "and more will come in the future.\n\n" ..
+        "If you haven't installed \"Krowi's Achievement Filter: " ..
+        "Khamuls Collections Plugin\" you can find it on curseforge.com.",
+    button1 = OKAY,
+    timeout = 0,               -- 0 = stay until user clicks OK
+    whileDead = true,
+    hideOnEscape = true,
+    preferredIndex = 3,        -- avoid taint conflicts with other addons
+}
+
 KhamulsHousingDecorEventListenerFrame:RegisterEvent("PLAYER_LOGIN")
 KhamulsHousingDecorEventListenerFrame:SetScript("OnEvent", function(self, event, ...)
     if event == "PLAYER_LOGIN" then
+        StaticPopup_Show("KHAMULS_HOUSING_DECOR_DEPRECATED")
         InitializeAllAchievementsForKhamulsHouseDecorList()
         KhamulsHousingDecorEventListenerFrame:Disable()
     end
